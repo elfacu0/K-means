@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+p {
+  display: inline;
+  color: #5FD9C2;
+}
+
+.buttons {
+  margin: 0px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #212121;
+}
+
+.buttons>button {
+  float: 1;
+  border-radius: 5px;
+  border-style: none;
+  background: #212121;
+  color: #5FD9C2;
+}
+
+button:hover {
+  background: #636363;
+}
+
+.buttons>* {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}

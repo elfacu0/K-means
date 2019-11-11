@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="p5.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+  <main>
+    <div class="buttons">
+      <button type="button" onclick="suprise()">Item</button>
+      <button type="button" onclick="playNext()">Next</button>
+      <button type="button" onclick="allIn()">Start</button>
+      <button type="button" onclick="deleteAll()">Clear</button>
+      <button type="button" onclick="randomDots(10)">Add Random</button>
+      <button type="button" onclick="kMeansPlusPlus()">K-mean++</button>
+      <div>
+        <p>Clusters:</p>
+        <input type="number" id="clusters" value="3">
+      </div>
+      <div>
+        <p>Circles size:</p>
+        <input type="range" onclick="circleSize()" id="dotSize" value="20" min="20" max="100">
+      </div>
+    </div>
+    <script src="sketch.js"></script>
+  </main>
+</body>
+
+</html>
